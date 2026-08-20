@@ -1,0 +1,7 @@
+/tmp/
+*.pem
+*.pyc
+__pycache__/
+.mc-*/
+data*/
+*.log

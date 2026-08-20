@@ -2,12 +2,7 @@
 
 Reproduction environment and analysis notes for a defensive security review of
 [MinIO](https://github.com/minio/minio) at commit `7aac2a2c5b7c882e68c1ce017d8256be2feea27f`
-(≈ RELEASE.2025-10-15 + 11 commits). Purpose: coordinated disclosure to the vendor and regression/patch
-verification. The issues are authorization and trust-boundary weaknesses; each was found by source review and,
-where marked **Live**, verified against a MinIO instance built from that commit using a pass/fail check.
-
-> Private research repository for authorized testing only. Do not point these scripts at infrastructure you do
-> not own or operate. Intended for vendor coordination, not public release.
+(≈ RELEASE.2025-10-15 + 11 commits). 
 
 ## Issue register
 
